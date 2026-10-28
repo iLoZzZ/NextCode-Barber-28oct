@@ -1,0 +1,52 @@
+
+{% extends 'barberia/base.html' %}
+
+{% block title %}Barberos disponibles{% endblock %}
+
+{% block content %}
+
+<h2>Barberos disponibles</h2>
+<p>Conoce a nuestro equipo de profesionales.</p>
+
+<table class="tabla">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Especialidad</th>
+            <th>Experiencia</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Juan Pérez</td>
+            <td>Cortes clásicos</td>
+            <td>5 años</td>
+            <td>Disponible</td>
+        </tr>
+
+        <tr>
+            <td>Carlos Gómez</td>
+            <td>Degradados (Fade)</td>
+            <td>3 años</td>
+            <td>Disponible</td>
+        </tr>
+
+        <tr>
+            <td>Andrés Ramírez</td>
+            <td>Barba y perfilado</td>
+            <td>4 años</td>
+            <td>Disponible</td>
+        </tr>
+
+        <tr>
+            <td>David Torres</td>
+            <td>Cortes modernos</td>
+            <td>2 años</td>
+            <td>No disponible</td>
+        </tr>
+    </tbody>
+</table>
+
+{% endblock %}
